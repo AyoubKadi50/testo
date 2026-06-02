@@ -511,10 +511,10 @@ Run them in that order before pushing. CI enforces the same checks.
 ## Contributing
 
 - [`.env.example`](.env.example) lists env key names as a read-only reference for contributors; use the **Admin UI** to change managed proxy settings.
-- Report bugs and feature requests in [Issues](https://github.com/Alishahryar1/free-claude-code/issues). For bug always include all model mapping, current model when issue occured and the issue string
+- Report bugs and feature requests in [Issues](https://github.com/Alishahryar1/free-claude-code/issues). For bugs, always include all model mapping, current model when the issue occurred, and the issue string.
 - Keep changes small and covered by focused tests.
 - Do not open Docker integration PRs.
-- Do not open README change PRs just open an issue for it.
+- Do not open README change PRs; just open an issue for it.
 - Run the full check sequence before opening a pull request.
 - Use standard Python 3 exception tuple syntax: `except (X, Y):`.
 
